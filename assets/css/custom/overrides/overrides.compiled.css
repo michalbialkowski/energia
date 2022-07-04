@@ -1,0 +1,12 @@
+.dropdown .dropdown-menu {
+  overflow: hidden;
+}
+
+.fc--white-25 {
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+}
+.fc--white-25::placeholder, .fc--white-25:-ms-input-placeholder, .fc--white-25::-ms-input-placeholder, .fc--white-25::-webkit-input-placeholder, .fc--white-25::-moz-placeholder, .fc--white-25:-moz-placeholder {
+  color: white !important;
+  opacity: 1 !important;
+}

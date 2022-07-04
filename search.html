@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/custom/page.compiled.css?h=a6995feb1d4f3a686a696db93a1eeaa4">
     <link rel="stylesheet" href="assets/css/custom/components/components.compiled.css?h=a17f6868f74c06ea08f999c17935f464">
     <link rel="stylesheet" href="assets/css/custom/libs/libs.compiled.css?h=28462e4728cc29b43695b7a76328f962">
+    <link rel="stylesheet" href="assets/css/custom/overrides/overrides.compiled.css?h=db8b09bd32e5f4d36c343d4e42fffe67">
 </head>
 
 <body>
@@ -75,9 +76,7 @@
                         <div class="row justify-content-between align-items-center">
                             <div class="col-auto">
                                 <div class="row align-items-center">
-                                    <div class="col-auto">
-                                        <form class="d-flex align-items-center"><input class="form-control form-control-lg text-center" type="text" value="91-492" style="width: 110px;"><label class="form-label fw-bold mb-0 ms-3">Łódź</label></form>
-                                    </div>
+                                    <div class="col-auto d-flex align-items-center"><input class="form-control-lg form-control text-center" type="text" value="91-492" style="width: 110px;"><label class="form-label fw-bold mb-0 ms-3">Łódź</label></div>
                                 </div>
                             </div>
                             <div class="col-auto">
@@ -405,35 +404,33 @@
             </div>
             <div>
                 <div class="container">
-                    <form>
-                        <div class="row justify-content-between align-items-center">
-                            <div class="col-3"></div>
-                            <div class="col-6">
-                                <div class="row justify-content-center align-items-center">
-                                    <div class="col-auto"><span class="d-flex align-items-center mx-n2"><input class="form-control text-center mx-2" type="text" value="1" style="width: 50px;"><span class="mx-2">z</span><input class="form-control text-center mx-2" type="text" value="10" style="width: 50px;"></span></div>
-                                    <div class="col-auto">
-                                        <nav>
-                                            <ul class="pagination mb-0">
-                                                <li class="page-item"><a class="page-link" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-bar-left fs-5">
-                                                            <path fill-rule="evenodd" d="M11.854 3.646a.5.5 0 0 1 0 .708L8.207 8l3.647 3.646a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708 0zM4.5 1a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 1 0v-13a.5.5 0 0 0-.5-.5z"></path>
-                                                        </svg></a></li>
-                                                <li class="page-item"><a class="page-link" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-left fs-5">
-                                                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
-                                                        </svg></a></li>
-                                                <li class="page-item"><a class="page-link" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-right fs-5">
-                                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
-                                                        </svg></a></li>
-                                                <li class="page-item"><a class="page-link" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-bar-right fs-5">
-                                                            <path fill-rule="evenodd" d="M4.146 3.646a.5.5 0 0 0 0 .708L7.793 8l-3.647 3.646a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708 0zM11.5 1a.5.5 0 0 1 .5.5v13a.5.5 0 0 1-1 0v-13a.5.5 0 0 1 .5-.5z"></path>
-                                                        </svg></a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-3"></div>
+                        <div class="col-6">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-auto"><span class="d-flex align-items-center mx-n2"><input type="text" class="form-control text-center mx-2" value="1" style="width: 50px;"><span class="mx-2">z</span><input type="text" class="form-control text-center mx-2" value="10" style="width: 50px;"></span></div>
+                                <div class="col-auto">
+                                    <nav>
+                                        <ul class="pagination mb-0">
+                                            <li class="page-item"><a class="page-link" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-bar-left fs-5">
+                                                        <path fill-rule="evenodd" d="M11.854 3.646a.5.5 0 0 1 0 .708L8.207 8l3.647 3.646a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708 0zM4.5 1a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 1 0v-13a.5.5 0 0 0-.5-.5z"></path>
+                                                    </svg></a></li>
+                                            <li class="page-item"><a class="page-link" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-left fs-5">
+                                                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+                                                    </svg></a></li>
+                                            <li class="page-item"><a class="page-link" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-right fs-5">
+                                                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                                                    </svg></a></li>
+                                            <li class="page-item"><a class="page-link" href="#!"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-bar-right fs-5">
+                                                        <path fill-rule="evenodd" d="M4.146 3.646a.5.5 0 0 0 0 .708L7.793 8l-3.647 3.646a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708 0zM11.5 1a.5.5 0 0 1 .5.5v13a.5.5 0 0 1-1 0v-13a.5.5 0 0 1 .5-.5z"></path>
+                                                    </svg></a></li>
+                                        </ul>
+                                    </nav>
                                 </div>
                             </div>
-                            <div class="col-3"><span class="d-flex justify-content-end align-items-center mx-n2"><span class="mx-2">Ofert na stronie</span><input class="form-control text-center mx-2" type="text" value="10" style="width: 50px;"></span></div>
                         </div>
-                    </form>
+                        <div class="col-3"><span class="d-flex justify-content-end align-items-center mx-n2"><span class="mx-2">Ofert na stronie</span><input type="text" class="form-control text-center mx-2" value="10" style="width: 50px;"></span></div>
+                    </div>
                 </div>
             </div>
         </main>
