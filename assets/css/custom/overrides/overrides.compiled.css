@@ -10,3 +10,7 @@
   color: white !important;
   opacity: 1 !important;
 }
+
+.pagination .page-item .page-link {
+  border-radius: 50rem !important;
+}
