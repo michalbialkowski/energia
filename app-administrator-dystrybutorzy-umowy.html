@@ -91,40 +91,76 @@
                                 </div>
                             </nav>
                         </div>
-                        <div class="bg-primary py-3 px-4">
-                            <form>
-                                <div class="row justify-content-between">
-                                    <div class="col-auto">
-                                        <div class="input-group"><input class="form-control" type="text"><button class="btn btn-info shadow-none" type="button">Szukaj</button></div>
-                                    </div>
-                                    <div class="col-auto">
-                                        <div class="row align-items-center">
-                                            <div class="col-auto">
-                                                <div class="d-flex align-items-center mx-n1"><label class="form-label fw-bold text-white p-0 m-0 mx-1">Status</label><select class="form-select mx-1 py-1">
-                                                        <option value="">Wszystkie</option>
-                                                        <option value="">Zgłoszona</option>
-                                                        <option value="">Zaakceptowana</option>
-                                                        <option value="">Z uwagami</option>
-                                                        <option value="">Zablokowana</option>
-                                                        <option value="">Odrzucona</option>
-                                                    </select></div>
-                                            </div>
-                                            <div class="col-auto"><button class="btn btn-info" type="button">Filtruj</button></div>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" data-bs-keyboard="false" id="offcanvas__filters">
+                            <div class="offcanvas-header text-white bg-primary">
+                                <h5 class="offcanvas-title">Filtruj</h5><button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body bg-light">
+                                <form>
+                                    <div class="row gy-3 row-cols-1">
+                                        <div class="col">
+                                            <div class="input-group"><input class="form-control" type="text"><button class="btn btn-info shadow-none" type="button">Szukaj</button></div>
+                                        </div>
+                                        <div class="col"><label class="form-label fw-bold">Sprzedawca</label><select class="form-select">
+                                                <option value="">Wszystkie</option>
+                                                <option value="">Polenergia S.A.</option>
+                                                <option value="">PKP Energetyka S.A.</option>
+                                                <option value="">ORLEN Paliwa Sp. z o.o.​</option>
+                                                <option value="">Green S.A.</option>
+                                                <option value="">Enea S.A.</option>
+                                            </select></div>
+                                        <div class="col"><label class="form-label fw-bold">Data zawarcia</label>
+                                            <div class="input-group"><select class="form-select">
+                                                    <option value="">Dowolnie</option>
+                                                    <option value="">Wcześniej niż</option>
+                                                    <option value="">Później niż</option>
+                                                </select><input class="form-control h-auto" type="date"></div>
+                                        </div>
+                                        <div class="col"><label class="form-label fw-bold">Data obowiązywania</label>
+                                            <div class="input-group"><select class="form-select">
+                                                    <option value="">Dowolnie</option>
+                                                    <option value="">Wcześniej niż</option>
+                                                    <option value="">Później niż</option>
+                                                </select><input class="form-control h-auto" type="date"></div>
+                                        </div>
+                                        <div class="col"><label class="form-label fw-bold">Status</label><select class="form-select">
+                                                <option value="">Wszystkie</option>
+                                                <option value="">Zgłoszona</option>
+                                                <option value="">Zaakceptowana</option>
+                                                <option value="">Z uwagami</option>
+                                                <option value="">Zablokowana</option>
+                                                <option value="">Odrzucona</option>
+                                            </select></div>
+                                        <div class="col">
+                                            <div class="d-flex justify-content-end"><button class="btn btn-info" type="button" data-bs-target="#offcanvas__filters" data-bs-toggle="offcanvas">Filtruj</button></div>
                                         </div>
                                     </div>
-                                </div>
-                            </form>
+                                </form>
+                            </div>
                         </div>
                         <div class="flex-grow-1 p-4">
                             <p class="mb-1">Dystrybutorzy</p>
                             <h2 class="mb-4">Stoen Operator Sp. z o.o.</h2>
-                            <div class="mb-4">
-                                <ul class="nav nav-tabs">
-                                    <li class="nav-item"><a class="nav-link" href="app-administrator-dystrybutorzy-szczegoly.html">Dane firmy</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="app-administrator-dystrybutorzy-taryfy.html">Taryfy</a></li>
-                                    <li class="nav-item"><a class="nav-link active" href="app-administrator-dystrybutorzy-umowy.html">Umowy</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="app-administrator-dystrybutorzy-obszar.html">Obszar</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="app-administrator-dystrybutorzy-uzytkownicy.html">Użytkownicy</a></li>
+                            <div class="bg-white mx-n4 px-4 py-2">
+                                <div class="row justify-content-between align-items-center">
+                                    <div class="col-auto">
+                                        <ul class="nav nav-tabs">
+                                            <li class="nav-item"><a class="nav-link" href="app-administrator-dystrybutorzy-szczegoly.html">Dane firmy</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="app-administrator-dystrybutorzy-taryfy.html">Taryfy</a></li>
+                                            <li class="nav-item"><a class="nav-link active" href="app-administrator-dystrybutorzy-umowy.html">Umowy</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="app-administrator-dystrybutorzy-obszar.html">Obszar</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="app-administrator-dystrybutorzy-uzytkownicy.html">Użytkownicy</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-auto"><button class="btn btn-primary" type="button" data-bs-target="#offcanvas__filters" data-bs-toggle="offcanvas">Filtruj</button></div>
+                                </div>
+                            </div>
+                            <div class="bg-primary mb-4 py-3 px-4 mx-n4">
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item"><span class="badge bg-info rounded-pill px-2"><span class="d-flex align-items-center mx-n1"><span class="fw-normal mx-1">Sprzedawca:</span><strong class="mx-1">Green S.A.</strong><i class="la la-close mx-1"></i></span></span></li>
+                                    <li class="list-inline-item"><span class="badge bg-info rounded-pill px-2"><span class="d-flex align-items-center mx-n1"><span class="fw-normal mx-1">Data zawarcia:</span><strong class="mx-1">Później niż</strong><strong class="mx-1">01.01.2022</strong><i class="la la-close mx-1"></i></span></span></li>
+                                    <li class="list-inline-item"><span class="badge bg-info rounded-pill px-2"><span class="d-flex align-items-center mx-n1"><span class="fw-normal mx-1">Data obowiązywania:</span><strong class="mx-1">Wcześniej niż</strong><strong class="mx-1">31.12.2022</strong><i class="la la-close mx-1"></i></span></span></li>
+                                    <li class="list-inline-item"><span class="badge bg-info rounded-pill px-2"><span class="d-flex align-items-center mx-n1"><span class="fw-normal mx-1">Status:</span><strong class="mx-1">Zaakceptowane</strong><i class="la la-close mx-1"></i></span></span></li>
                                 </ul>
                             </div>
                             <div class="table-responsive bg-white">
