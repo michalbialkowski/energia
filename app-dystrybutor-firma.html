@@ -51,23 +51,13 @@
                     <div class="col d-flex flex-column">
                         <div>
                             <nav class="navbar navbar-light navbar-expand-md bg-white shadow-none px-3 border-bottom">
-                                <div class="container-fluid"><a class="navbar-brand fs-4 p-0" href="#!"><span>Brand Name</span><span class="badge bg-primary fs-6 rounded-pill ms-3">Dystrybutor</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                                    <div class="collapse navbar-collapse justify-content-end" id="navcol-1">
+                                <div class="container-fluid"><a class="navbar-brand fs-4 p-0" href="#!"><span>Brand Name</span><span class="badge bg-primary fs-6 rounded-pill ms-3">Dystrybutor</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                                    <div class="collapse navbar-collapse justify-content-end" id="navcol-3">
                                         <div>
                                             <div class="row align-items-center">
                                                 <div class="col-auto">
-                                                    <form>
-                                                        <div class="border-bottom">
-                                                            <div class="row gx-0">
-                                                                <div class="col-auto d-flex"><input class="form-control rounded-0 border-0 pe-0" type="text" placeholder="Wyszukaj w serwisie…"></div>
-                                                                <div class="col-auto d-flex"><button class="btn shadow-none rounded-0" type="submit">Znajdź</button></div>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                </div>
-                                                <div class="col-auto">
                                                     <ul class="navbar-nav align-items-center">
-                                                        <li class="nav-item justify-content-center align-items-center"><a class="nav-link d-flex justify-content-center align-items-center py-1" href="#"><span class="position-relative"><i class="la la-search fs-3"></i></span></a></li>
+                                                        <li class="nav-item justify-content-center align-items-center"><a class="nav-link d-flex justify-content-center align-items-center py-1" href="#" data-bs-target="#offcanvas__search__dystrybutor" data-bs-toggle="offcanvas"><span class="position-relative"><i class="la la-search fs-3"></i></span></a></li>
                                                         <li class="nav-item justify-content-center align-items-center"><a class="nav-link d-flex justify-content-center align-items-center py-1" href="#" data-bs-target="#offcanvas__notifications__dystrybutor" data-bs-toggle="offcanvas"><span class="position-relative"><i class="la la-bell fs-3"></i><span class="badge bg-danger d-flex justify-content-center align-items-center position-absolute start-100 top-0 translate-middle rounded-circle p-0" style="width: 20px;height: 20px;"><small style="margin-bottom: 1px;">12</small></span></span></a></li>
                                                         <li class="nav-item dropdown justify-content-center align-items-center"><a class="nav-link d-flex justify-content-center align-items-center py-1" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="position-relative"><i class="la la-building-o fs-3"></i></span></a>
                                                             <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="app-dystrybutor-firma.html">Dane firmy</a><a class="dropdown-item" href="app-dystrybutor-uzytkownicy.html">Użytkownicy</a></div>
@@ -226,6 +216,39 @@
             <div class="p-3 border-top bg-lightblue">
                 <div class="row justify-content-end">
                     <div class="col-auto"><a class="btn btn-info" role="button" href="app-sprzedawca-powiadomienia.html">Przejdź do powiadomień</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas__search__administrator">
+            <div class="offcanvas-header text-white bg-primary">
+                <h5 class="offcanvas-title">Wyszukaj</h5><button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body"></div>
+            <div class="p-3 border-top bg-lightblue">
+                <div class="row justify-content-end">
+                    <div class="col-auto"><a class="btn btn-info" role="button" href="app-administrator-wyszukaj.html">Więcej wyników wyszukiwania</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas__search__dystrybutor">
+            <div class="offcanvas-header text-white bg-primary">
+                <h5 class="offcanvas-title">Wyszukaj</h5><button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body"></div>
+            <div class="p-3 border-top bg-lightblue">
+                <div class="row justify-content-end">
+                    <div class="col-auto"><a class="btn btn-info" role="button" href="app-dystrybutor-wyszukaj.html">Więcej wyników wyszukiwania</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas__search__sprzedawca">
+            <div class="offcanvas-header text-white bg-primary">
+                <h5 class="offcanvas-title">Wyszukaj</h5><button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body"></div>
+            <div class="p-3 border-top bg-lightblue">
+                <div class="row justify-content-end">
+                    <div class="col-auto"><a class="btn btn-info" role="button" href="app-sprzedawca-wyszukaj.html">Więcej wyników wyszukiwania</a></div>
                 </div>
             </div>
         </div>
