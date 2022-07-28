@@ -140,7 +140,9 @@
                                                 </div>
                                                 <div class="col-auto">
                                                     <div class="row gx-2 align-items-center">
-                                                        <div class="col-auto"><a class="btn btn-danger" role="button" href="#">Zgłoś uwagi</a></div>
+                                                        <div class="col-auto"><a class="btn btn-secondary" role="button" href="#">Zgłoś uwagi</a></div>
+                                                        <div class="col-auto"><button class="btn btn-warning" type="button" data-bs-target="#modal__lock" data-bs-toggle="modal">Zablokuj</button></div>
+                                                        <div class="col-auto"><button class="btn btn-danger" type="button" data-bs-target="#modal__delete" data-bs-toggle="modal">Usuń</button></div>
                                                         <div class="col-auto"><a class="btn btn-success" role="button" href="app-administrator-taryfy.html">Akceptuj</a></div>
                                                     </div>
                                                 </div>
@@ -154,6 +156,48 @@
                 </div>
             </div>
         </main>
+    </div>
+    <div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal__lock">
+            <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-white bg-primary py-2">
+                        <h6 class="modal-title">Zablokuj</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center mb-0">Czy na pewno chcesz zablokować wybrane pozycje?</p>
+                    </div>
+                    <div class="modal-footer bg-lightblue py-2">
+                        <div class="w-100">
+                            <div class="row justify-content-between">
+                                <div class="col-auto"><button class="btn btn-warning btn-sm" type="button" data-bs-target="#modal__lock" data-bs-toggle="modal">Zablokuj</button></div>
+                                <div class="col-auto"><button class="btn btn-info btn-sm" type="button" data-bs-dismiss="modal">Nie blokuj</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal__delete">
+            <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-white bg-primary py-2">
+                        <h6 class="modal-title">Usuń pozycje</h6><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center mb-0">Czy na pewno chcesz usunąć wybrane pozycje?</p>
+                    </div>
+                    <div class="modal-footer bg-lightblue py-2">
+                        <div class="w-100">
+                            <div class="row justify-content-between">
+                                <div class="col-auto"><button class="btn btn-danger btn-sm" type="button" data-bs-target="#modal__delete" data-bs-toggle="modal">Usuń</button></div>
+                                <div class="col-auto"><button class="btn btn-info btn-sm" type="button" data-bs-dismiss="modal">Nie usuwaj</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="assets/js/jquery.min.js?h=84e399b8f2181ccd73394fdeddff1638"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js?h=5488c86a1260428f0c13c0f8fb06bf6a"></script>
