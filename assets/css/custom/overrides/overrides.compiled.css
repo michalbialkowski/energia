@@ -14,3 +14,11 @@
 .pagination .page-item .page-link {
   border-radius: 50rem !important;
 }
+
+.offcanvas .offcanvas-header.bg-primary .btn-close {
+  filter: invert(100%);
+}
+
+.modal .modal-header.bg-primary .btn-close {
+  filter: invert(100%);
+}
