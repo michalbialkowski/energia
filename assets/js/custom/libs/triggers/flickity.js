@@ -5,8 +5,8 @@ $(window).on('load', function() {
 		freeScroll: false,
 		wrapAround: true,
 		pageDots: true,
-		autoPlay: true,
-		prevNextButtons: true,
+		autoPlay: false,
+		prevNextButtons: false,
         arrowShape: { 
 			x0: 15,
 			x1: 65, y1: 50,
