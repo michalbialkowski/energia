@@ -72,7 +72,7 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-light pt-4 mb-4 border-bottom">
+            <div class="pt-4 border-bottom bg-light">
                 <div class="container">
                     <ul class="nav nav-tabs justify-content-center">
                         <li class="nav-item"><a class="nav-link active" href="#!">Gospodarstwo domowe</a></li>
@@ -80,10 +80,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="mb-4">
+            <div class="mb-4 py-4 border-bottom bg-lightblue mt--n1">
                 <div class="container">
-                    <div class="border py-3 px-3">
-                        <div class="row justify-content-between align-items-center flex-nowrap">
+                    <div>
+                        <div class="row justify-content-between flex-nowrap">
                             <div class="col">
                                 <div class="row gy-3 flex-wrap">
                                     <div class="col-auto d-flex align-items-center"><input type="text" class="form-control text-center h-100 py-2" value="91-492" style="width: 90px;"><label class="form-label fw-bold mb-0 ms-3">Łódź</label></div>
@@ -108,13 +108,9 @@
                                     <div class="col-auto d-flex align-items-center"><label class="form-label fw-bold mb-0 me-3">Moc umowna kW</label><input type="number" class="form-control text-center h-100 py-2" value="5.5" style="width: 110px;"></div>
                                 </div>
                             </div>
-                            <div class="col-auto">
-                                <ul class="nav nav-tabs">
-                                    <li class="nav-item"><a class="nav-link px-3" href="search-compare.html"><span class="text-body d-flex align-items-center mx-n1"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-plus-lg mx-1">
-                                                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"></path>
-                                                </svg><span class="mx-1">Kalkulator</span><span class="badge bg-dark mx-1 px-2 rounded-pill">1</span></span></a></li>
-                                </ul>
-                            </div>
+                            <div class="col-auto d-flex align-items-center"><button class="btn btn-primary btn-lg border-1 d-flex align-items-center w-100 py--13" type="button"><span class="line-height-none">Pokaż oferty</span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-right ms-2 mt--n3">
+                                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                                    </svg></button></div>
                         </div>
                     </div>
                 </div>
@@ -122,9 +118,9 @@
             <div class="mb-4">
                 <div class="container">
                     <div>
-                        <div class="row justify-content-between align-items-center">
+                        <div class="row gy-3 justify-content-between align-items-center">
                             <div class="col-auto">
-                                <p class="lead d-flex align-items-center mb-0 mx-n1"><span class="mx-1">Oferty</span><span class="badge bg-light text-body rounded-pill px-3 border mx-1">6</span><span class="mx-1">dla miesięcznego zużycia w wysokości 1200 kWh</span></p>
+                                <p class="lead d-flex align-items-center mb-0 mx-n1"><span class="mx-1">Oferty</span><span class="badge bg-light text-body rounded-pill px-3 border mx-1">6</span><span class="mx-1">dla zużycia / m-c w wysokości 1200 kWh</span></p>
                             </div>
                             <div class="col-auto">
                                 <div class="row">
@@ -152,6 +148,9 @@
                                     <div class="col d-flex"><button class="btn btn-primary btn-sm d-flex align-items-center" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-filter me-2 ms-n1">
                                                 <path d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"></path>
                                             </svg><span>zaawansowane</span></button></div>
+                                    <div class="col d-flex"><a class="btn btn-outline-primary btn-sm d-flex align-items-center" role="button" href="search-compare.html"><span>Porównaj</span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-right ms-2 me-n1">
+                                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
+                                            </svg></a></div>
                                 </div>
                             </div>
                         </div>
@@ -180,24 +179,23 @@
                                     <td>G12</td>
                                     <td>1000 zł</td>
                                     <td>02/07/2022</td>
-                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-calculator fs-5">
-                                                <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"></path>
-                                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"></path>
+                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-plus-lg fs-5">
+                                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"></path>
                                             </svg></button></td>
-                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down fs-5">
-                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
+                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0 btn-lightblue" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-up fs-5">
+                                                <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"></path>
                                             </svg></button></td>
                                 </tr>
                                 <tr>
                                     <td class="text-center p-0" colspan="10">
-                                        <div class="card text-start shadow-none rounded-0">
-                                            <div class="card-header bg-light rounded-0">
+                                        <div class="card text-start shadow-none rounded-0 mt--n1">
+                                            <div class="card-header rounded-0 bg-lightblue">
                                                 <div class="row justify-content-between align-items-center">
                                                     <div class="col-auto">
                                                         <h5 class="mb-0">Oferta promocyjna ,,Czysta energia od Orange IV- Pakiet faktura 300’’</h5>
                                                     </div>
                                                     <div class="col-auto">
-                                                        <div class="row align-items-center">
+                                                        <div class="row gx-2 align-items-center">
                                                             <div class="col-auto"><button class="btn btn-primary btn-sm d-flex align-items-center rounded-pill" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-file-text me-2 ms-n1">
                                                                         <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"></path>
                                                                         <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"></path>
@@ -240,8 +238,8 @@
                                                         <div class="table-responsive">
                                                             <table class="table table-sm table-bordered mb-0">
                                                                 <tbody>
-                                                                    <tr>
-                                                                        <th class="bg-light" colspan="3">Opłaty za kupno prądu</th>
+                                                                    <tr class="bg-primary text-white">
+                                                                        <th colspan="3">Opłaty za kupno prądu</th>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>Prąd zużyty w godzinach szczytu</th>
@@ -258,12 +256,12 @@
                                                                         <td></td>
                                                                         <td class="text-nowrap text-end">50.00</td>
                                                                     </tr>
-                                                                    <tr>
+                                                                    <tr class="bg-light">
                                                                         <th colspan="2">Suma opłat zmiennych</th>
                                                                         <td class="text-nowrap text-end fw-bold">544.84</td>
                                                                     </tr>
-                                                                    <tr>
-                                                                        <th class="bg-light" colspan="3">Opłaty za przesył</th>
+                                                                    <tr class="bg-primary text-white">
+                                                                        <th colspan="3">Opłaty za przesył</th>
                                                                     </tr>
                                                                     <tr>
                                                                         <th>Zmienna sieciowa w godzinach szczytu</th>
@@ -300,12 +298,12 @@
                                                                         <td></td>
                                                                         <td class="text-nowrap text-end">1.60</td>
                                                                     </tr>
-                                                                    <tr>
+                                                                    <tr class="bg-light">
                                                                         <th colspan="2">Suma opłat stałych</th>
                                                                         <td class="text-nowrap text-end fw-bold">405.19</td>
                                                                     </tr>
                                                                 </tbody>
-                                                                <tfoot class="bg-light">
+                                                                <tfoot class="bg-lightblue">
                                                                     <tr>
                                                                         <th class="text-start" colspan="2">Razem</th>
                                                                         <td class="text-nowrap text-end fw-bold">1000 zł</td>
@@ -374,7 +372,12 @@
                                                     <div class="col-auto"><button class="btn btn-outline-primary border-1 d-flex align-items-center" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-up me-2">
                                                                 <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"></path>
                                                             </svg><span>Zwiń</span></button></div>
-                                                    <div class="col-auto"><button class="btn btn-primary" type="button">Zobacz szczegóły</button></div>
+                                                    <div class="col-auto">
+                                                        <div class="row gx-2">
+                                                            <div class="col"><button class="btn btn-outline-primary text-nowrap" type="button">Dodaj do porównania</button></div>
+                                                            <div class="col"><button class="btn btn-primary text-nowrap" type="button">Zobacz szczegóły</button></div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -386,9 +389,9 @@
                                     <td>G12</td>
                                     <td>1100 zł</td>
                                     <td>30/12/2022</td>
-                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-calculator fs-5">
-                                                <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"></path>
-                                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"></path>
+                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn btn-primary shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-lg fs-5">
+                                                <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"></path>
+                                                <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"></path>
                                             </svg></button></td>
                                     <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down fs-5">
                                                 <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
@@ -400,9 +403,8 @@
                                     <td>G12w</td>
                                     <td>1120 zł</td>
                                     <td>02/07/2022</td>
-                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-calculator fs-5">
-                                                <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"></path>
-                                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"></path>
+                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-plus-lg fs-5">
+                                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"></path>
                                             </svg></button></td>
                                     <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down fs-5">
                                                 <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
@@ -414,9 +416,8 @@
                                     <td>G11</td>
                                     <td>1130 zł</td>
                                     <td>30/12/2022</td>
-                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-calculator fs-5">
-                                                <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"></path>
-                                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"></path>
+                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-plus-lg fs-5">
+                                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"></path>
                                             </svg></button></td>
                                     <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down fs-5">
                                                 <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
@@ -428,9 +429,8 @@
                                     <td>G11<br></td>
                                     <td>1150 zł</td>
                                     <td>30/12/2022</td>
-                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-calculator fs-5">
-                                                <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"></path>
-                                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"></path>
+                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-plus-lg fs-5">
+                                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"></path>
                                             </svg></button></td>
                                     <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down fs-5">
                                                 <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
@@ -442,9 +442,8 @@
                                     <td>G11</td>
                                     <td>1200 zł</td>
                                     <td>30/12/2022</td>
-                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-calculator fs-5">
-                                                <path d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"></path>
-                                                <path d="M4 2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5v-2zm0 4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm0 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-4z"></path>
+                                    <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-plus-lg fs-5">
+                                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"></path>
                                             </svg></button></td>
                                     <td class="border-start p-0 position-relative" style="width: 70px;"><button class="btn shadow-none align-items-stretch rounded-0 w-100 h-100 position-absolute top-0 start-0 p-0" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down fs-5">
                                                 <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
